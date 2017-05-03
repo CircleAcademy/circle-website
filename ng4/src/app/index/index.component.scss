@@ -1,0 +1,55 @@
+@import "../theme.scss";
+
+img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  margin: 0 0 15px 0;
+}
+
+div.container.centered {
+  h1, h2 {
+    text-align: center;
+  }
+}
+
+.margin-top {
+  margin: 15px 0 0 0;
+}
+
+.margin {
+  margin: 0 0 15px 0;
+}
+
+div.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.social {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 15px 0;
+  a {
+    margin: 0 15px 0 0;
+  }
+}
+
+div.choices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px 0;
+  a {
+    margin: 0 15px 0 0;
+    width: 200px;
+  }
+}
+
+div.container-wrap {
+  background: $g2;
+}
